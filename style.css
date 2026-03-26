@@ -1,0 +1,17 @@
+header {
+    background: transparent;
+    padding: 0.2em 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+footer {
+    text-align: center;
+    padding: 1.5em;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: auto;
+    color: var(--text-primary-color);
+    border-top: 3px solid var(--border-neon-color);
+    box-shadow: 0 -4px 15px var(--shadow-neon-color);
+}
